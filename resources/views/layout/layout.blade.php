@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
-    <title>Farm System</title>
+    <title>Customer Category System</title>
     <!-- Bootstrap Core CSS -->
     <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- This page CSS -->
@@ -72,8 +72,8 @@
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
-                        <li> <a class="waves-effect waves-dark" href="{{ url('/roles') }}" aria-expanded="false"><i class="mdi mdi-account-key"></i><span class="hide-menu"> Categorias</span></a></li>
-                        <li> <a class="waves-effect waves-dark" href="{{ url('/users') }}" aria-expanded="false"><i class="mdi mdi-account"></i><span class="hide-menu"> Clientes</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="{{ url('/categories') }}" aria-expanded="false"><i class="mdi mdi-account-convert"></i><span class="hide-menu"> Categorias</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="{{ url('/customers') }}" aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span class="hide-menu"> Clientes</span></a></li>
                     </ul>
                 </nav>
                 <!-- End Sidebar navigation -->
